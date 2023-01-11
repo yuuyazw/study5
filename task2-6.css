@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+    display: block;
+    text-align: center;
+}
+.menu{
+    width:100%;
+    background-color: green;
+    display: inline-block;
+}
+ul li{
+    margin: 0 10px;
+    float: right;
+    display:flex;
+}
+.logo{
+    float: left;
+    height:50px;
+}
+header{
+    height:50px;
+    display: flex;
+    margin:20px 0;
+}
+p{
+    text-align: center;
+}
+input{
+    width: 300px;
+}
+textarea{
+    width: 300px;
+    height:80px;
+}
+
+

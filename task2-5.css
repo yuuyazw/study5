@@ -1,0 +1,121 @@
+body {
+    background-image:url("img/cafe_1.jpg");
+   }
+header{
+    display:flex;
+    height:50px;
+    background-color: aqua;
+    margin: 20px 0px;
+}
+.logo{
+    height:50px;
+    float: left;
+}
+.menu ul li{
+    list-style: none;
+}
+ul li{
+    margin: 0 10px;
+    float: left;
+    display:flex;
+}
+ol li{
+    width:100%;
+    float: left;
+}
+
+.menu{
+    width:100%;
+    background-color: green;
+    margin:0 0 0 auto;
+    display: inline-block;
+}
+.lanch-time{
+    width:150px;
+    height:30px;
+    background-color: chartreuse;
+}
+.top-content{
+    width:100%;
+    height:600px;
+    background-color: darkblue;
+    position:relative;
+    display:flex;
+    top:10px;
+    left:0%;
+}
+.image1{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-right:30px;
+    background-color:white;
+    position: absolute;
+    margin: 150px 150px;
+}
+.image2{
+    width:300px;
+    height:300px;
+    margin-right:30px;
+    background-color:white;
+    position: absolute;
+    margin: 150px 0px;
+}
+.image3{
+    width:300px;
+    height:300px;
+    margin-right:30px;
+    background-color:white;
+    position: absolute;
+    margin: 150px 150px;
+}
+
+.dinner-time{
+    width:180px;
+    height:30px;
+    background: aqua;
+}
+.bottom-content{
+    width:100%;
+    height:600px;
+    background-color: darkblue;
+    position:relative;
+    display:flex;
+    top:10px;
+    left:0
+}
+.left-text{
+    display:flex ;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 450px 255px;
+}
+.center-text{
+    display:flex;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 450px 100px;
+}
+.right-text{
+    display:flex;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 450px 240px;
+}
+.ibent{
+    width: 160px;
+    height:30px;
+    background: aqua;
+    position:relative;
+}
+.events{
+    background-color: white;
+    height: 350px;
+    list-style: none;
+}
+.day{
+    color: orange;
+}
